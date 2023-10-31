@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="SignUpPage.css">
+</head>
+
+<body>
+    <div class="section">
+        <form action="">
+            <h1>Signup</h1>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="username" required>
+           <label for="batch">Batch</label>
+           <select id="batch">
+            <option>Sigma 1.0</option>
+            <option>Sigma 2.0</option>
+           </select>
+           <label for="age">Age:</label>
+            <input type="text" id="age" name="age" pattern="[0-9]{3}" required>
+           <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit"> SignUp</button>
+        </form>
+    </div>
+</body>
